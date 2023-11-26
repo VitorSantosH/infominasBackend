@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(morgan('common'));
 app.use('/', express.static('dist'))
 
-const portHttp = 3000;
+const portHttp = 8050;
 
 const httpServer = http.createServer(app);
 
